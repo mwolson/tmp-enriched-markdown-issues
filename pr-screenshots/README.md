@@ -8,4 +8,6 @@ Simulator, Xcode 27.0.
 
 - `clip-*`: ordered list marker width (`ordered_list_wide_markers_test`).
 - `mixed-*`: Android mixed nested list indents (`mixed_nested_list_test` and
-  `mixed_nested_list_markers_test`).
+  `mixed_nested_list_markers_test`). The first panel of `mixed-android-before.png`
+  and all of `mixed-ios-reference.png` are the baselines committed on `main`,
+  since the local `main` captures of that flow were cut off at the bottom.
